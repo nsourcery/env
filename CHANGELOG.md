@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.3](https://github.com/nsourcery/env/compare/v0.0.2...v0.0.3) (2020-09-27)
+
+
+### Bug Fixes
+
+* binding environment, no more static ([704b452](https://github.com/nsourcery/env/commit/704b452630f5f4662c684f8f29a05ebd5839ff9a))
+
 ### [0.0.2](https://github.com/nsourcery/env/compare/v0.0.1...v0.0.2) (2020-09-27)
 
 
