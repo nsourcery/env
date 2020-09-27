@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.5](https://github.com/nsourcery/env/compare/v0.0.4...v0.0.5) (2020-09-27)
+
+
+### Features
+
+* exposing environment service to get config variables ([059f889](https://github.com/nsourcery/env/commit/059f889a809b0568107f4964306b43527d2da101))
+
 ### [0.0.4](https://github.com/nsourcery/env/compare/v0.0.3...v0.0.4) (2020-09-27)
 
 
