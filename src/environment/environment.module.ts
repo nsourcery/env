@@ -9,7 +9,7 @@ import { EnvironmentService } from '..';
       load: [EnvironmentService.loadEnvironment],
     }),
   ],
-  providers: [EnvironmentService],
-  exports: [EnvironmentService],
+  providers: [],
+  exports: [ConfigModule],
 })
 export class EnvironmentModule {}
