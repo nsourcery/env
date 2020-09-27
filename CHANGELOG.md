@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.6](https://github.com/nsourcery/env/compare/v0.0.5...v0.0.6) (2020-09-27)
+
+
+### Bug Fixes
+
+* using common module mocks instead of redeclaring in this project ([834fbe6](https://github.com/nsourcery/env/commit/834fbe659d9825b8de67051c7a91c1d1bbe27db9))
+
 ### [0.0.5](https://github.com/nsourcery/env/compare/v0.0.4...v0.0.5) (2020-09-27)
 
 
