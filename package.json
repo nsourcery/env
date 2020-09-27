@@ -1,6 +1,6 @@
 {
     "name": "@nsourcery/env",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "Environment configuration for nsourcery",
     "author": "Getúlio Magela Silva",
     "license": "MIT",

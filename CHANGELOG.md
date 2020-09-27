@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.4](https://github.com/nsourcery/env/compare/v0.0.3...v0.0.4) (2020-09-27)
+
+
+### Bug Fixes
+
+* broken module reference ([dd0e574](https://github.com/nsourcery/env/commit/dd0e5742c8cc51d5248c9c2ebd685832cb31787b))
+
 ### [0.0.3](https://github.com/nsourcery/env/compare/v0.0.2...v0.0.3) (2020-09-27)
 
 
