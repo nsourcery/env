@@ -28,6 +28,7 @@
         "postreset": "npm i --save-dev husky"
     },
     "dependencies": {
+        "@nestjs/config": "^0.5.0",
         "@nestjs/mapped-types": "0.1.0"
     },
     "devDependencies": {
