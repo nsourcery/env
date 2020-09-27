@@ -29,7 +29,8 @@
     },
     "dependencies": {
         "@nestjs/config": "^0.5.0",
-        "@nestjs/mapped-types": "0.1.0"
+        "@nestjs/mapped-types": "0.1.0",
+        "@nsourcery/common": "0.0.2"
     },
     "devDependencies": {
         "@commitlint/cli": "11.0.0",

@@ -1,5 +1,6 @@
 import { ConfigService } from '@nestjs/config';
 import { Test, TestingModule } from '@nestjs/testing';
+import { MockConfigService } from '@nsourcery/common';
 import { EnvironmentService } from './environment.service';
 
 describe('EnvironmentService', () => {
@@ -8,7 +9,7 @@ describe('EnvironmentService', () => {
   beforeEach(async () => {
     const module: TestingModule = await Test.createTestingModule({
       providers: [
-        { provide: ConfigService, useClass: MockConfig },
+        { provide: ConfigService, useClass: MockConfigService },
         EnvironmentService,
       ],
     }).compile();
@@ -37,9 +38,3 @@ describe('EnvironmentService', () => {
     expect(actual).toBeUndefined();
   });
 });
-
-class MockConfig {
-  get(environmentVariable: string) {
-    throw new Error('Not Implemented Error');
-  }
-}
