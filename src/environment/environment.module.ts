@@ -6,10 +6,10 @@ import { EnvironmentService } from '..';
   imports: [
     ConfigModule.forRoot({
       isGlobal: true,
-      load: [EnvironmentService.loadEnvironment],
+      load: [new EnvironmentService().loadEnvironment],
     }),
   ],
   providers: [],
-  exports: [ConfigModule],
+  exports: [],
 })
 export class EnvironmentModule {}
